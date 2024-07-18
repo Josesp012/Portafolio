@@ -1,0 +1,60 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefefb8;
+
+}
+header{
+    background-color: greenyellow;
+    color: white;
+    padding: 3rem 2rem;
+
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: cyan 5px 2px 4px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+article{
+    background-color: #efefef;
+    margin: 1 rem 0;
+    border-radius: 0.5 rem;
+    padding: 0.25rem 0;
+    
+}
+h2::before{
+    content:"⚽";
+}
+
+article h2, article p{
+    margin: 1rem;
+}
+
+.descripcion::first-letter{
+    color: aqua;
+    font-size: 40px;
+}
+
+footer{
+    background-color: greenyellow;
+}
+footer h3{
+    text-align: center;
+}
