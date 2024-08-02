@@ -12,6 +12,7 @@
           display: flex;
           flex-direction: column;
           font-size: 1rem;
+          
         }
         .contacto{
           display: flex;
@@ -25,6 +26,13 @@
     </style>
   </head>
 <body>
+    <nav class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1>Mi Portafolio</h1>
+        </div>
+      </div>
+    </nav>
     <main class="container-fluid">
         <header class="row">
           <div class="col-12">
@@ -37,7 +45,7 @@
             <div class="card border-0">
               <div class="card-body">
                 <h2>Acerca de mi</h2> <hr>
-                <p>Tengo 26 años y soy de la Ciudad de México</p>
+                <p><strong>Tengo 26 años y soy de la Ciudad de México</strong></p>
                 <p>Apasionado por la innovación en el campo de la ciencia y la 
                 tecnología. Me motiva el desafío constante y la oportunidad de crecimiento profesional. Con un enfoque autodidacta, disfruto 
                 explorando nuevas tecnologías y metodologías para mejorar mis habilidades y conocimientos. Estoy buscando una empresa dinámica 
@@ -49,7 +57,7 @@
             <div id="carouselExample" class="carousel slide">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div class="card border-0">
+                  <div class="card border-0 trayecto">
                     <div class="card-body">
                       <h2>Proyectos</h2> <hr>
                     <dl>
@@ -65,59 +73,61 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="card border-0">
+                  <div class="card border-0 trayecto">
                     <div class="card-body">
                       <h2>Educacion</h2> <hr>
                       <dl>
                         <dt>Bootcamp Desarrollador Java Fullstack</dt>
                           <dd>Generation Mexico</dd>
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMK5VaJp6fKAFnyeJKBFo3Mo9yWEJpP3zE5g&s" alt="generation" width="95px">
                         <dt>Ingeniería en Sistemas Automotrices</dt>
                           <dd>Escuela Superior de Ingeniería Mecánica y Eléctrica Unidad Azcapotzalco IPN Titulado 2022
                             Especialidad Manufactura                      
                           </dd>
+                          <img src="https://i.pinimg.com/736x/d5/f5/31/d5f5312f9a8a73d922342ecbf1212a22.jpg" alt="IPN"  width="95px">
                       </dl>
                     </div>                
                   </div>
                 </div>  
                 <div class="carousel-item">
-                  <div class="card border-0">
+                  <div class="card border-0 trayecto">
                     <div class="card-body">
                       <h2>Habilidades</h2> <hr>
-                  <div class="habilidades">
-                    <dl>
-                      <dt>Habilidades tecnicas</dt>
-                      <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>BOOTSTRAP</li>
-                      <li>C</li>
-                      <li>JavaScript</li>
-                      <li>Java</li>
-                      <li>MYSQL</li>
-                      </ul>
-                    </dl>
-                    <dl>
-                      <dt>Habilidades blandas</dt>
-                      <ul>
-                        <li>Trabajo en equipo</li>
-                        <li>Orientacion al detalle</li>
-                        <li>Proactividad</li>
-                        <li>Responsabilidad Personal</li>
-                        <li>Mentalidad de crecimiento</li>
-                        <li>Empatía</li>
-                      </ul>
-                    </dl>
+                      <div class="habilidades">
+                        <dl>
+                          <dt>Habilidades tecnicas</dt>
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>BOOTSTRAP</li>
+                            <li>C</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>MYSQL</li>
+                          </ul>
+                        </dl>
+                        <dl>
+                          <dt>Habilidades blandas</dt>
+                          <ul>
+                            <li>Trabajo en equipo</li>
+                            <li>Orientacion al detalle</li>
+                            <li>Proactividad</li>
+                            <li>Responsabilidad Personal</li>
+                            <li>Mentalidad de crecimiento</li>
+                            <li>Empatía</li>
+                          </ul>
+                        </dl>
+                      </div>
                     </div>
-                  </div>
                   </div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon anterior" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon siguiente" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
@@ -132,12 +142,16 @@
             <div class="col">              
               <h4>Teléfono</h4>
                 <p>+52 5645920911</p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" alt="" width="40px">
+                <a href="https://www.linkedin.com/in/jose-salazar-perez-1a5828232/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1200px-LinkedIn_icon.svg.png" id="logo" alt="" width="40px">
+                </a>
               </div>
               <div class="col">
                 <h4>Correo</h4>
                 <p>jose.salazarp_9612@hotmail.com</p>
-                <img src="https://cdn.iconscout.com/icon/free/png-256/free-github-40-432516.png?f=webp" alt="" width="45px">
+                <a href="https://github.com/Josesp012" target="_blank">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-github-40-432516.png?f=webp" id="logo"  alt="" width="45px">
+                </a>
               </div>
           </div>
         </div>
