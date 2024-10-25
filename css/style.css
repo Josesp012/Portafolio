@@ -48,14 +48,18 @@ header{
     letter-spacing: 5px;
 }
 header h1{
-    font-size: 4rem;
+    font-size: 4rem; font-weight: bold;
     color: red;
 }
 header p{
     font-size: 2rem;
 }
-aside, section{
-    border: green 5px solid;
+.idioma fieldset{
+    width: 10rem; height: 7rem;
+    margin: 7vh 0vh 7vh 0vh; padding: 2rem;
+    border-radius: 100%;
+    background-color: rgba(255, 254, 250);
+    color: rgba(22, 29, 29, 0.562);
 }
 aside p{
     font-size: 1.3rem;
