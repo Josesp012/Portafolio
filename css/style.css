@@ -18,7 +18,7 @@ nav{
 }
 .encabezado li{
     background-color: rgba(255, 254, 250);
-    margin: 0 4rem 0 7rem;
+    margin: 0 2rem 0 7rem;
     position: relative;
     padding: 5vh;
     border-radius: 4rem;
@@ -61,21 +61,38 @@ header p{
     background-color: rgba(255, 254, 250);
     color: rgba(22, 29, 29, 0.562);
 }
-aside p{
+.cafe p{
     font-size: 1.3rem;
+}
+.card{
+    border-radius: 2rem;
+}
+.verde, .cafe{
+    padding: 1rem;
+}
+.verde{
+    background-color: rgba(22, 197, 16, 0.89);
+    border-radius: 2rem 2rem 0 0 ;
+}
+.cafe{
+    background-color: rgba(207, 175, 31, 0.89);
+    border-radius: 0 0 2rem 2rem;
+}
+.titulo{
+    margin: 2rem;
+    text-align: center;
+    border-bottom: 1rem yellow solid;
+}
+.logo{
+    margin: 1vh 30vh;
 }
 .trayecto{
     margin: auto;
     padding: auto;
     width: 90%;
 }
-h2{
+.verde h2{
     text-align: center;
-}
-hr{
-    height: 5px;
-    background-color: green;
-    border-color: green;
 }
 .habilidades{
     display: flex;
