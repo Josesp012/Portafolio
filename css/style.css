@@ -73,6 +73,7 @@ header p{
 .verde{
     background-color: rgba(22, 197, 16, 0.89);
     border-radius: 2rem 2rem 0 0 ;
+
 }
 .cafe{
     background-color: rgba(207, 175, 31, 0.89);
@@ -94,10 +95,26 @@ header p{
 .verde h2{
     text-align: center;
 }
-.habilidades{
-    display: flex;
-    flex-direction: row;
-    font-size: 1rem;
+.ht{
+    margin: 0 2rem;
+}
+.habilidades .verde{
+    background-color: rgba(22, 197, 16, 0.89);
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 0;
+    height: auto;
+}
+.salidai{
+    margin: 0;
+    width: 2rem;
+    background-color: green;
+    border-radius: 2rem 0 0 2rem;
+}
+.salidad{
+    margin: 0;
+    width: 2rem;
+    background-color: green;
+    border-radius: 0 2rem 2rem 0;
 }
 ul li{
     margin-top: 15px;
