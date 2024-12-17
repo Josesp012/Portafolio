@@ -116,6 +116,24 @@ header p{
     background-color: green;
     border-radius: 0 2rem 2rem 0;
 }
+.nada{
+    margin: 0 2rem;
+    padding: 0.5rem;
+    display: flex; justify-content: center;
+}
+.nada .row{
+    margin-top: 1rem;
+}
+.nada .cafe{
+    margin: 0 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0;
+    width: auto;
+}
+.nada .logo{
+    margin: auto;
+
+}
 ul li{
     margin-top: 15px;
     list-style: none
