@@ -142,12 +142,16 @@ dl{
     margin: auto;
 }
 .anterior{
-    background-color: black;
+    background-color: orange;
     margin-right: auto;
 }
 .siguiente{
-    background-color: black;
+    background-color: orange;
     margin-left: auto;
+}
+.proyecto{
+    margin: 2rem;
+    display: block;
 }
 footer{
     margin: 0;
