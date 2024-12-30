@@ -12,36 +12,6 @@
     </style>
   </head>
 <body>
-  <!-- <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand"><img src="https://img.icons8.com/ios-filled/30/000000/portrait-mode-female.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <menu class="collapse navbar-collapse navegacion" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Productos
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Aseo</a></li>
-              <li><a class="dropdown-item" href="#">Papeleria</a></li>
-              <li><a class="dropdown-item" href="#">Farmacia</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="email" placeholder="Email" aria-label="Email">
-          <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
-          <button class="btn btn-outline-success" type="submit">Iniciar Sesion</button>
-        </form>
-      </menu>
-    </div>
-  </nav> -->
     <!--Barra de Navegacion-->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
@@ -70,7 +40,16 @@
     <!--Presentacion-->
     <header class="row inicio">
         <div class="col-4 tema">
-          <img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">
+          <div class="dropdown clima">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">
+              </a></li>
+            </ul>
+          </div>
         </div>
         <div class="col-6 leyenda">
           <h1>José Salazar Pérez</h1>
