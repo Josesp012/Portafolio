@@ -11,19 +11,22 @@ body{
 nav{
     margin: 0;
 }
-.encabezado ul{
-    margin: 1rem;
-    display: flex;
-    justify-content: end;
+nav h1{
+    margin: 0 0.7em;
+    color: orangered !important;
+    font-size: 2rem !important;
 }
-.encabezado li{
+.navegacion ul{
+    margin: .5rem;
+}
+.navegacion li{
     background-color: rgba(255, 254, 250);
-    margin: 0 2rem 0 7rem;
+    margin: 0 2rem 0 3rem;
     position: relative;
     padding: 5vh;
     border-radius: 4rem;
 }
-.encabezado a{
+.navegacion a{
     text-decoration: none;
     color: rgba(22, 29, 29, 0.562);
 }
