@@ -64,6 +64,9 @@ header h1{
 header p{
     font-size: 2rem;
 }
+.idioma{
+    margin-right: 7vh;
+}
 .idioma fieldset{
     width: 10rem; height: 7rem;
     margin: 7vh 0vh 7vh 0vh; padding: 2rem;
@@ -126,7 +129,7 @@ header p{
     border-radius: 0 2rem 2rem 0;
 }
 .nada{
-    margin: 0 1rem;
+    margin: 0 1rem 0 0;
     padding: 0.5rem 7vh;
 }
 .nada{
@@ -170,13 +173,16 @@ dl{
     background-size: cover;
     width: auto; height: 25rem;
 }
+.acerca{
+    background-color: rgba(250, 250, 9, 0.963);
+}
+.acerca:hover{
+    background-color: rgb(rgb(227, 101, 10));
+}
 .cinema{
     background-image: url("/img/Cinema.png");
     background-size: cover;
     width: auto; height: 25rem;
-}
-.content{
-    background-color: orange;
 }
 footer{
     margin: 0; padding: 0;
@@ -192,9 +198,10 @@ footer{
 }
 .botones button{
     margin: 30px;
-    background-color: brown;
-    border: brown;
+    /* background-color: brown;
+    border: brown; */
     font-size: large;
+    color: white;
 }
 .botones button:hover{
     background-color: purple;
