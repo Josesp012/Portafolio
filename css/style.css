@@ -41,7 +41,7 @@ header{
 }
 .clima{
     width: 40px;
-    margin: 0;
+    margin: 2vh 0;
 }
 .tema img{
     width: 70%;
@@ -83,7 +83,6 @@ header p{
 .verde{
     background-color: rgba(22, 197, 16, 0.89);
     border-radius: 2rem 2rem 0 0 ;
-
 }
 .cafe{
     background-color: rgba(207, 175, 31, 0.89);
@@ -105,7 +104,7 @@ header p{
 .verde h2{
     text-align: center;
 }
-.ht{
+.ht,.hb{
     margin: 0 2rem;
 }
 .habilidades .verde{
@@ -127,26 +126,24 @@ header p{
     border-radius: 0 2rem 2rem 0;
 }
 .nada{
-    margin: 0 2rem;
-    padding: 0.5rem;
-    display: flex; justify-content: center;
+    margin: 0 1rem;
+    padding: 0.5rem 7vh;
 }
-.nada .row{
+.nada{
     margin-top: 1rem;
 }
 .nada .cafe{
-    margin: 0 0.6rem;
+    margin: 3vh 2vh;
     padding: 0.5rem 0.7rem;
     border-radius: 0;
     width: auto;
 }
 .nada .logo{
-    margin: auto;
-
+    margin: 0 auto;
 }
 ul li{
     margin-top: 15px;
-    list-style: none
+    list-style: none;
 }
 dl{
     margin: auto;
