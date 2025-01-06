@@ -18,10 +18,16 @@ nav h1{
 }
 menu{
     padding: 0;
+    margin-right: 3rem;
+    width: 830px !important;
+}
+menu ul{
+    display: flex;
+    justify-content: space-between !important;
 }
 .navegacion li{
     background-color: rgba(255, 254, 250);
-    margin: 0 3rem 0 2.3rem;
+    margin: 0 1.3em 0 1.3em;
     /* position: relative; */
     padding: 5vh;
     border-radius: 4rem;
@@ -40,6 +46,7 @@ menu{
 }
 header{
     display: flex; justify-content: center;
+    margin: 0;
 }
 .tema{
     background-color: yellow;
