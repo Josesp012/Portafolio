@@ -21,10 +21,6 @@ menu{
     margin-right: 3rem;
     width: 830px !important;
 }
-menu ul{
-    display: flex;
-    justify-content: space-between !important;
-}
 .navegacion li{
     background-color: rgba(255, 254, 250);
     margin: 0 1.3em 0 1.3em;
