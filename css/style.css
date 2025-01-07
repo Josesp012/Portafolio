@@ -5,40 +5,31 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    margin: 0; padding: 0 !important;
+    margin: 0 !important; padding: 0;
     background-color: #3fc0e7b8;
 }
-nav{
-    margin: 0;
-}
 nav h1{
-    margin: 0 0.7em;
     color: orangered !important;
     font-size: 2rem !important;
 }
-menu{
-    padding: 0;
-    margin-right: 3rem;
-    width: 830px !important;
-}
-.navegacion li{
+menu li{
     background-color: rgba(255, 254, 250);
-    margin: 0 1.3em 0 1.3em;
-    /* position: relative; */
-    padding: 5vh;
+    margin: 0 3vh;
     border-radius: 4rem;
 }
-.navegacion a{
+menu h4{
     text-decoration: none;
     color: rgba(22, 29, 29, 0.562);
 }
-.navegacion a:hover{
-    color: rgba(8, 0, 255, 0.807);
+menu h4{
+    padding: 3vh;
 }
-.navegacion h4:hover{
+menu h4:hover{
     background-color: rgba(128, 128, 128, 0.764);
-    padding: 6px;
-    border-radius: 7px;
+    margin: 3vh;
+    padding: 1.5vh;
+    border-radius: 3rem;
+    color: blue;
 }
 header{
     display: flex; justify-content: center;
