@@ -21,6 +21,27 @@
         menu li{
           min-width: 2rem;
         }
+        header{
+          display: flex;
+          flex-wrap: nowrap;
+        }
+        header .tema{
+          order: 1;
+        }
+        header .leyenda{
+          order: 3;
+        }
+        header .idioma{
+          order: 2;
+          padding: 0 12rem;
+          width: 10vh;
+        }
+        .idioma{
+          margin-right: 25vh;
+        }
+        .row{
+          margin-left: 0 !important; 
+        }
       }
     </style>
   </head>
@@ -52,7 +73,7 @@
   </nav>
     <!--Presentacion-->
     <header class="row inicio">
-      <div class="col-lg-4 order-sm-1 col-sm-2 tema">
+      <div class="col-lg-4 order-sm-1 col-sm-3 tema">
         <div class="dropdown clima">
           <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">
@@ -70,7 +91,7 @@
         <h1>José Salazar Pérez</h1>
         <p>Desarrollador Web/Java</p>
       </div>
-      <div class="col-lg-2 order-sm-2 order-lg-3 col-sm-2 idioma">
+      <div class="col-lg-2 order-sm-2 order-lg-3 col-sm-3 idioma">
         <fieldset>
             <label for="español"><input id="español" type="radio" name="account-type" checked /> Español</label>
             <label for="ingles"><input id="ingles" type="radio" name="account-type" /> Ingles</label>
