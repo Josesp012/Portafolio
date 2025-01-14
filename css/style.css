@@ -172,6 +172,8 @@ dl{
 .saihon{
     background-image: url("/img/Saihon.jpeg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: auto; height: 25rem;
 }
 .acerca{
@@ -183,6 +185,8 @@ dl{
 .cinema{
     background-image: url("/img/Cinema.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: auto; height: 25rem;
 }
 footer{
