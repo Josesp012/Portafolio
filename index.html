@@ -64,6 +64,7 @@
         }
       }
     </style>
+    <!--<script src="js/main.js"/>-->
   </head>
 <body>
   <!--Barra de Navegacion-->
@@ -93,15 +94,20 @@
   </nav>
     <!--Presentacion-->
     <header class="row inicio">
-      <div class="col-lg-4 order-sm-1 col-sm-3 tema">
-        <div class="dropdown clima" id="tema">
-          <button class="btn dropdown-toggle" type="button" value="claro" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="col-lg-4 order-sm-1 col-sm-3 tema" id="clima">
+        <div class="dropdown clima">
+          <button class="btn dropdown-toggle" type="button" value="tema" id="tema" data-bs-toggle="dropdown" aria-expanded="false" >
             <img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">
           </button>
           <ul class="dropdown-menu">
             <li>
-              <button class="dropdown-item" type="button" value="oscuro" onclick="cambiarTema(this)">
-              <img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">
+              <button class="dropdown-item" style="display: none;" type="button" value="claro" id="claro" onclick="temaClaro(this)" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item" type="button" value="oscuro" id="oscuro" onclick="temaOscuro(this)">
+                <img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">
               </button>
             </li>
           </ul>
