@@ -20,4 +20,18 @@ function temaClaro() {
   oscuro.style.display="block";
   claro.style.display="none";
 }
+
+function idiomaIngles(){
+  let ingles=document.getElementById('tituloIngles');
+  let soy=document.getElementById('soy');
+  ingles.innerHTML='<input id="ingles" type="radio" name="account-type" checked onclick="idiomaIngles(this)"/> English';
+  soy.innerHTML='Web/Java Developer';
+}
+
+function idiomaEspañol(){
+  let español=document.getElementById('tituloEspañol');
+  let soy=document.getElementById('soy');
+  soy.innerHTML='Desarrollador Web/Java';
+  español.innerHTML='<input id="español" type="radio" name="account-type" checked onclick="idiomaEspañol(this)"/> Español';
+}
 //window.addEventListener('load',cambiarTema);
