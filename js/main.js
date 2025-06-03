@@ -6,10 +6,15 @@ let nube1=document.getElementById('nube1');
 let nube2=document.getElementById('nube2');
 let nube3=document.getElementById('nube3');
 let nube4=document.getElementById('nube4');
+let nube5=document.getElementById('nube5');
 let estrella1=document.getElementById('estrella1');
 let estrella2=document.getElementById('estrella2');
 let estrella3=document.getElementById('estrella3');
 let estrella4=document.getElementById('estrella4');
+let nombre=document.getElementById('nombre');
+let español=document.getElementById('tituloEspañol');
+let ingles=document.getElementById('tituloIngles');
+let soy=document.getElementById('soy');
 
 function temaOscuro() {  
   tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">';
@@ -25,6 +30,11 @@ function temaOscuro() {
   nube2.style.backgroundColor="black";
   nube3.style.backgroundColor="black";
   nube4.style.backgroundColor="black";
+  nube5.style.backgroundColor="black";
+  nombre.style.color="#4fee13";
+  español.style.color="yellow";
+  ingles.style.color="yellow";
+  soy.style.color="blue"
 }
 function temaClaro() {
    tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">';
@@ -33,10 +43,7 @@ function temaClaro() {
   oscuro.style.display="block";
   claro.style.display="none";
 }
-
 function idiomaIngles(){
-  let ingles=document.getElementById('tituloIngles');
-  let soy=document.getElementById('soy');
   ingles.innerHTML='<input id="ingles" type="radio" name="account-type" checked onclick="idiomaIngles(this)"/> English';
   soy.innerHTML='Web/Java Developer';
   estrella1.innerHTML="Education";
@@ -46,8 +53,6 @@ function idiomaIngles(){
 }
 
 function idiomaEspañol(){
-  let español=document.getElementById('tituloEspañol');
-  let soy=document.getElementById('soy');
   soy.innerHTML='Desarrollador Web/Java';
   español.innerHTML='<input id="español" type="radio" name="account-type" checked onclick="idiomaEspañol(this)"/> Español';
 }
