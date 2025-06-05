@@ -15,7 +15,8 @@ let nombre=document.getElementById('nombre');
 let español=document.getElementById('tituloEspañol');
 let ingles=document.getElementById('tituloIngles');
 let soy=document.getElementById('soy');
-
+let plataforma1=document.getElementById('gris1');
+let soporte1=document.getElementById('morado1');
 function temaOscuro() {  
   tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">';
   document.body.style.backgroundColor="black";
@@ -35,13 +36,18 @@ function temaOscuro() {
   español.style.color="yellow";
   ingles.style.color="yellow";
   soy.style.color="blue"
+  plataforma1.style.backgroundColor="gray";
+  soporte1.style.backgroundColor="purple";
+  plataforma1.style.color="brown ";
+  soporte1.style.color="#fba81f ";
 }
 function temaClaro() {
-   tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">';
+  location.reload();
+   /*tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">';
    document.body.style.backgroundColor="#3fc0e7b8";
   clima.style.backgroundColor="yellow";
   oscuro.style.display="block";
-  claro.style.display="none";
+  claro.style.display="none";*/
 }
 function idiomaIngles(){
   ingles.innerHTML='<input id="ingles" type="radio" name="account-type" checked onclick="idiomaIngles(this)"/> English';
