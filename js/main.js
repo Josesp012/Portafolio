@@ -1,28 +1,57 @@
-const oscuro=document.getElementById('oscuro');
-let clima=document.getElementById('clima');
-let tema=document.getElementById('tema');
-const claro=document.getElementById('claro');
-let nube1=document.getElementById('nube1');
-let nube2=document.getElementById('nube2');
-let nube3=document.getElementById('nube3');
-let nube4=document.getElementById('nube4');
-let nube5=document.getElementById('nube5');
-let estrella1=document.getElementById('estrella1');
-let estrella2=document.getElementById('estrella2');
-let estrella3=document.getElementById('estrella3');
-let estrella4=document.getElementById('estrella4');
-let nombre=document.getElementById('nombre');
-let español=document.getElementById('tituloEspañol');
-let ingles=document.getElementById('tituloIngles');
-let soy=document.getElementById('soy');
-let plataforma1=document.getElementById('gris1');
-let soporte1=document.getElementById('morado1');
+const btn_oscuro=document.getElementById('btn-oscuro');
+//const fondoclaro= document.getAttribute("style");
+const clima=document.getElementById('clima');
+const btn_tema=document.getElementById('btn-tema');
+const btn_claro=document.getElementById('btn-claro');
+const nube1=document.getElementById('nube1');
+const nube2=document.getElementById('nube2');
+const nube3=document.getElementById('nube3');
+const nube4=document.getElementById('nube4');
+const nube5=document.getElementById('nube5');
+const estrella1=document.getElementById('estrella1');
+const estrella2=document.getElementById('estrella2');
+const estrella3=document.getElementById('estrella3');
+const estrella4=document.getElementById('estrella4');
+const nombre=document.getElementById('nombre');
+const español=document.getElementById('tituloEspañol');
+const ingles=document.getElementById('tituloIngles');
+const soy=document.getElementById('soy');
+const txtsoy=soy.innerHTML;
+const plataforma1=document.getElementById('gris1');
+const soporte1=document.getElementById('morado1');
+const plataforma2=document.getElementById('gris2');
+const soporte2=document.getElementById('morado2');
+const plataforma3=document.getElementById('gris3');
+const soporte3=document.getElementById('morado3');
+const plataforma4=document.getElementById('gris4');
+const soporte4=document.getElementById('morado4');
+const plataforma5=document.getElementById('gris5');
+const plataforma6=document.getElementById('gris6');
+const plataforma7=document.getElementById('gris7');
+const plataforma8=document.getElementById('gris8');
+const plataforma9=document.getElementById('gris9');
+const plataforma10=document.getElementById('gris10');
+const plataforma11=document.getElementById('gris11');
+const plataforma12=document.getElementById('gris12');
+const plataforma13=document.getElementById('gris13');
+const plataforma14=document.getElementById('gris14');
+const plataforma15=document.getElementById('gris15');
+const plataforma16=document.getElementById('gris16');
+const plataforma17=document.getElementById('gris17');
+const plataforma18=document.getElementById('gris18');
+const plataforma19=document.getElementById('gris19');
+const soporte5=document.getElementById('morado5');
+const educacion=document.getElementById('educacion');
+const habilidades=document.getElementById('habilidades');
+const proyectos=document.getElementById('proyectos')
+btn_oscuro.addEventListener('click',temaOscuro);
+
 function temaOscuro() {  
-  tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">';
+  btn_tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/1518/1518052.png" alt="luna">';
   document.body.style.backgroundColor="black";
   clima.style.backgroundColor="white";
-  oscuro.style.display="none";
-  claro.style.display="block";
+  btn_oscuro.style.display="none";
+  btn_claro.style.display="block";
   estrella1.style.color ="yellow";
   estrella2.style.color ="yellow";
   estrella3.style.color ="yellow";
@@ -38,16 +67,60 @@ function temaOscuro() {
   soy.style.color="blue"
   plataforma1.style.backgroundColor="gray";
   soporte1.style.backgroundColor="purple";
-  plataforma1.style.color="brown ";
-  soporte1.style.color="#fba81f ";
+  plataforma1.style.color="brown";
+  soporte1.style.color="#fba81f";
+  plataforma2.style.backgroundColor="gray";
+  soporte2.style.backgroundColor="purple";
+  plataforma2.style.color="brown";
+  soporte2.style.color="#fba81f";
+  plataforma3.style.backgroundColor="gray";
+  soporte3.style.backgroundColor="purple";
+  plataforma3.style.color="brown";
+  soporte3.style.color="#fba81f";
+  plataforma4.style.backgroundColor="gray";
+  soporte4.style.backgroundColor="purple";
+  plataforma4.style.color="brown";
+  soporte4.style.color="#fba81f";
+  plataforma5.style.backgroundColor="gray";
+  soporte5.style.backgroundColor="purple";
+  plataforma5.style.color="brown";
+  soporte5.style.color="#fba81f";
+  plataforma6.style.backgroundColor="gray";
+  plataforma7.style.backgroundColor="gray";
+  plataforma8.style.backgroundColor="gray";
+  plataforma9.style.backgroundColor="gray";
+  plataforma10.style.backgroundColor="gray";
+  plataforma11.style.backgroundColor="gray";
+  plataforma12.style.backgroundColor="gray";
+  plataforma13.style.backgroundColor="gray";
+  plataforma14.style.backgroundColor="gray";
+  plataforma15.style.backgroundColor="gray";
+  plataforma16.style.backgroundColor="gray";
+  plataforma17.style.backgroundColor="gray";
+  plataforma18.style.backgroundColor="gray";
+  plataforma19.style.backgroundColor="gray";
+  educacion.style.color="blue";
+  habilidades.style.color="blue";
+  proyectos.style.color="blue";
 }
 function temaClaro() {
-  location.reload();
-   /*tema.innerHTML='<img src="https://cdn-icons-png.flaticon.com/512/6661/6661565.png" alt="sol">';
-   document.body.style.backgroundColor="#3fc0e7b8";
-  clima.style.backgroundColor="yellow";
-  oscuro.style.display="block";
-  claro.style.display="none";*/
+  document.body.removeAttribute("style");
+  estrella1.removeAttribute("style");
+  estrella2.removeAttribute("style");
+  estrella3.removeAttribute("style");
+  estrella4.removeAttribute("style");
+  nube1.removeAttribute("style");
+  nube2.removeAttribute("style");
+  nube3.removeAttribute("style");
+  nube4.removeAttribute("style");
+  nube5.removeAttribute("style");
+  nombre.removeAttribute("style");
+  español.removeAttribute("style");
+  ingles.removeAttribute("style");
+  soy.removeAttribute("style");
+  plataforma1.removeAttribute("style");
+  plataforma1.removeAttribute("style");
+  soporte1.removeAttribute("style");
 }
 function idiomaIngles(){
   ingles.innerHTML='<input id="ingles" type="radio" name="account-type" checked onclick="idiomaIngles(this)"/> English';
@@ -59,7 +132,7 @@ function idiomaIngles(){
 }
 
 function idiomaEspañol(){
-  soy.innerHTML='Desarrollador Web/Java';
+  soy.innerHTML=txtsoy;
   español.innerHTML='<input id="español" type="radio" name="account-type" checked onclick="idiomaEspañol(this)"/> Español';
 }
 //window.addEventListener('load',cambiarTema);
