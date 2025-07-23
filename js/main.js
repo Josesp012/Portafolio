@@ -44,6 +44,15 @@ const soporte5=document.getElementById('morado5');
 const educacion=document.getElementById('educacion');
 const habilidades=document.getElementById('habilidades');
 const proyectos=document.getElementById('proyectos')
+const salida1=document.getElementById('salida1')
+const salida2=document.getElementById('salida2')
+const salida3=document.getElementById('salida3')
+const salida4=document.getElementById('salida4')
+const btn_anterior=document.getElementById('btn-anterior')
+const btn_siguiente=document.getElementById('btn-siguiente')
+const contacto=document.getElementById('contacto')
+const botones=document.getElementById('botones')
+
 btn_oscuro.addEventListener('click',temaOscuro);
 
 function temaOscuro() {  
@@ -102,6 +111,14 @@ function temaOscuro() {
   educacion.style.color="blue";
   habilidades.style.color="blue";
   proyectos.style.color="blue";
+  salida1.style.backgroundColor="#6010b0";
+  salida2.style.backgroundColor="#6010b0";
+  salida3.style.backgroundColor="#6010b0";
+  salida4.style.backgroundColor="#6010b0";
+  btn_anterior.style.backgroundColor="gray";
+  btn_siguiente.style.backgroundColor="gray";
+  contacto.style.backgroundColor="gray";
+  botones.style.backgroundColor="red"
 }
 function temaClaro() {
   document.body.removeAttribute("style");
